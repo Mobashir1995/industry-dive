@@ -1,0 +1,105 @@
+/*
+Theme Name: Industry Dive
+Theme URI: https://github.com/Mobashir1995/industry-dive
+Author: Mobashir
+Author URI: https://github.com/Mobashir1995/industry-dive
+Description: Industry Drive is a test assignment
+Requires at least: 5.3
+Tested up to: 6.1.1
+Requires PHP: 5.6
+Version: 1.0.0
+Text Domain: industry-dive
+*/
+
+/**-----------------------------------
+    Include Normalize CSS
+-----------------------------------**/
+@import url("assets/css/normalize.css");
+
+/**-----------------------------------
+    Font Face
+-----------------------------------**/
+/* Font Face for Invention Regular */
+@font-face {
+    font-family: 'invention-regular';
+    src: url('assets/fonts/Invention-Regular.woff2') format('woff2'),
+         url('assets/fonts/Invention-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: 400;
+}
+
+/* Font Face for Invention Bold */
+@font-face {
+    font-family: 'invention-bold';
+    src: url('assets/fonts/Invention-Bold.woff2') format('woff2'),
+         url('assets/fonts/Invention-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: 700;
+}
+
+/* Font Face for Invention Extra Bold*/
+@font-face {
+    font-family: 'invention-extra-bold';
+    src: url('assets/fonts/Invention-ExtraBold.woff2') format('woff2'),
+         url('assets/fonts/Invention-ExtraBold.woff') format('woff');
+    font-weight: 900;
+    font-style: 900;
+}
+
+/* Font Face for Khand Bold*/
+@font-face {
+    font-family: 'khand-bold';
+    src: url('assets/fonts/Khand-Bold.woff2') format('woff2'),
+         url('assets/fonts/Khand-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: 700;
+}
+
+/**-----------------------------------
+    Variables
+-----------------------------------**/
+:root {
+
+    /* Colors */
+    --global--color-primary: #009791;
+    --global--color-secondary: #333e47;
+    --global--color-overlay: rgba(0, 0, 0, 0.4);
+    --global--color-text: #5a5a5a;
+    --global--color-white: #fff;
+}
+/**-----------------------------------
+    Common CSS
+-----------------------------------**/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'khand-bold';
+}
+
+html,
+body,
+p,
+a{
+    font-family: 'invention-regular';
+}
+
+.alignleft {
+	text-align: left;
+	margin-top: 0;
+}
+
+.aligncenter {
+	clear: both;
+	display: block;
+	float: none;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+.alignright {
+	margin-top: 0;
+}
