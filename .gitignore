@@ -1,0 +1,12 @@
+# Ignore everything in repository root 
+/*
+/wp-content/themes/twentytwentyone/
+/wp-content/plugins/hello.php
+
+# Files to not ignore
+!/.gitignore
+!/docker-compose.yml
+!/wp-config.php
+
+# Folder to not ignore
+!/wp-content/
